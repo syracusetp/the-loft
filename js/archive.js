@@ -18,6 +18,10 @@ async function load() {
   } catch { return []; }
 }
 
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
 function shots(e) {
   const photos = Array.isArray(e.photos) ? e.photos.filter(Boolean) : [];
   const cells = [];
@@ -54,6 +58,7 @@ function render() {
           <span class="tag">${e.community}</span>
           <span class="tag">${e.type}</span>
         </div>
+        ${e.description ? `<p class="blurb">${esc(e.description)}</p>` : ""}
         ${shots(e)}
       </div>
     </article>`).join("");

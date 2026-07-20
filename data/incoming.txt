@@ -1,0 +1,20 @@
+# HOW TO ADD EVENTS
+#
+# 1. Put photos in:  images/events/YYYY-MM-DD-short-slug/
+#    Name them 1.jpg, 2.jpg, 3.jpg ... in the order you want them shown.
+# 2. Add ONE line per event below, using this format (fields separated by " | "):
+#
+#      folder-slug | Title | Type | Community | Short description
+#
+#    - folder-slug must exactly match the folder name (the date comes from it).
+#    - Description is one short sentence. Skip it by leaving it blank after the last " | ".
+#    - Lines starting with # are ignored. Blank lines are fine.
+# 3. Tell me "new events added, push them" and I'll do the rest.
+#
+# Reuse these existing values or a new one will create a new filter button:
+#   Types:        Book Club | Book Launch | Book Talk | Dinner | Games Night | Party | Watch Party
+#   Communities:  DC Enjoyment Crew | The Global African | The Loft Regulars | The Loft Table | Women's Book Club
+#
+# ---- Add your events below this line ----
+# Example (delete or keep — the script skips commented lines):
+# 2026-08-02-summer-mixer | Summer Mixer | Party | The Global African | A rooftop evening to close out the summer.

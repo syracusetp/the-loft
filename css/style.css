@@ -96,6 +96,7 @@ a { color: inherit; }
 .entry .date { font-size:12px; letter-spacing:0.13em; text-transform:uppercase; color:var(--sky); padding-top:8px; line-height:1.6; }
 .entry h3 { font-size: clamp(24px,2.6vw,32px); margin-bottom:12px; }
 .tags { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px; }
+.blurb { font-size:16px; line-height:1.6; color:var(--slate); max-width:60ch; margin:-8px 0 22px; }
 .tag {
   font-size:11px; letter-spacing:0.1em; text-transform:uppercase; font-weight:300;
   padding:5px 12px; border-radius:999px; background:var(--haze); color:var(--slate);
