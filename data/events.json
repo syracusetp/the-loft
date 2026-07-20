@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-07-15-frontier-madness",
+    "name": "Frontier Madness",
+    "type": "Book Talk",
+    "date": "2026-07-15",
+    "community": "The Global African",
+    "photos": [
+      "images/events/2026-07-15-Frontier-Madness/1.jpg",
+      "images/events/2026-07-15-Frontier-Madness/2.jpg",
+      "images/events/2026-07-15-Frontier-Madness/3.jpg",
+      "images/events/2026-07-15-Frontier-Madness/4.jpg"
+    ]
+  },
+  {
     "id": "2026-07-13-world-cup-final",
     "name": "World Cup Final Watch Party",
     "type": "Watch Party",
@@ -25,7 +38,7 @@
   },
   {
     "id": "2026-06-28-book-club",
-    "name": "Women's Book Club \u2014 June Read",
+    "name": "Women's Book Club — June Read",
     "type": "Book Club",
     "date": "2026-06-28",
     "community": "Women's Book Club",
@@ -38,6 +51,17 @@
     "date": "2026-06-27",
     "community": "The Loft Table",
     "photos": []
+  },
+  {
+    "id": "2026-06-23-world-cup-drc",
+    "name": "World Cup Watch Party: DRC",
+    "type": "Watch Party",
+    "date": "2026-06-23",
+    "community": "DC Enjoyment Crew",
+    "photos": [
+      "images/events/2026-06-23-World-Cup-DRC/1.jpg",
+      "images/events/2026-06-23-World-Cup-DRC/2.jpg"
+    ]
   },
   {
     "id": "2026-06-21-house-party",
@@ -73,7 +97,7 @@
   },
   {
     "id": "2026-06-08-book-club",
-    "name": "Women's Book Club \u2014 Kickoff",
+    "name": "Women's Book Club — Kickoff",
     "type": "Book Club",
     "date": "2026-06-08",
     "community": "Women's Book Club",
