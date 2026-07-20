@@ -110,5 +110,19 @@
     "date": "2026-06-06",
     "community": "The Loft Table",
     "photos": []
+  },
+  {
+    "id": "2025-12-22-christmas-game-night",
+    "name": "Brenda's Christmas Party",
+    "type": "Games Night",
+    "date": "2025-12-22",
+    "community": "The Loft Regulars",
+    "photos": [
+      "images/events/2025-12-22-Christmas-Game-Night/1.jpg",
+      "images/events/2025-12-22-Christmas-Game-Night/2.jpg",
+      "images/events/2025-12-22-Christmas-Game-Night/3.jpg",
+      "images/events/2025-12-22-Christmas-Game-Night/4.jpg"
+    ],
+    "description": "A dinner style holiday party."
   }
 ]
