@@ -13,22 +13,6 @@
     ]
   },
   {
-    "id": "2026-07-13-world-cup-final",
-    "name": "World Cup Final Watch Party",
-    "type": "Watch Party",
-    "date": "2026-07-13",
-    "community": "The Global African",
-    "photos": []
-  },
-  {
-    "id": "2026-07-06-games-night",
-    "name": "Games Night",
-    "type": "Games Night",
-    "date": "2026-07-06",
-    "community": "The Loft Regulars",
-    "photos": []
-  },
-  {
     "id": "2026-07-04-pool-party",
     "name": "Summer Pool Party",
     "type": "Party",
@@ -64,51 +48,11 @@
     ]
   },
   {
-    "id": "2026-06-21-house-party",
-    "name": "Midsummer House Party",
-    "type": "Party",
-    "date": "2026-06-21",
-    "community": "The Global African",
-    "photos": []
-  },
-  {
-    "id": "2026-06-19-book-launch",
-    "name": "Book Launch: [Author / Title]",
-    "type": "Book Launch",
-    "date": "2026-06-19",
-    "community": "The Global African",
-    "photos": []
-  },
-  {
-    "id": "2026-06-14-watch-party",
-    "name": "World Cup Opening Watch Party",
-    "type": "Watch Party",
-    "date": "2026-06-14",
-    "community": "The Global African",
-    "photos": []
-  },
-  {
     "id": "2026-06-12-diaspora-dinner",
     "name": "Diaspora Founders Dinner",
     "type": "Dinner",
     "date": "2026-06-12",
     "community": "The Global African",
-    "photos": []
-  },
-  {
-    "id": "2026-06-08-book-club",
-    "name": "Women's Book Club — Kickoff",
-    "type": "Book Club",
-    "date": "2026-06-08",
-    "community": "Women's Book Club",
-    "photos": []
-  },
-  {
-    "id": "2026-06-06-welcome-dinner",
-    "name": "New Members Welcome Dinner",
-    "type": "Dinner",
-    "date": "2026-06-06",
-    "community": "The Loft Table",
     "photos": []
   },
   {
