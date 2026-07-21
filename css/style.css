@@ -68,22 +68,25 @@ a { color: inherit; }
 .page-head--banner::before {
   content:""; position:absolute; inset:0; z-index:0;
   background: url("../images/the-loft-banner-gibly.jpeg") right center / cover no-repeat;
-  opacity:0.9;
+  opacity:1;
 }
 .page-head--banner::after {
   content:""; position:absolute; inset:0; z-index:1;
   background:
-    linear-gradient(102deg, #fff 3%, rgba(255,255,255,0.82) 36%, rgba(255,255,255,0.28) 64%, rgba(255,255,255,0) 100%),
-    linear-gradient(to bottom, rgba(255,255,255,0) 44%, rgba(255,255,255,0.55) 78%, #fff 100%);
+    linear-gradient(102deg, #fff 2%, rgba(255,255,255,0.8) 34%, rgba(255,255,255,0.2) 62%, rgba(255,255,255,0) 96%),
+    linear-gradient(to bottom, rgba(255,255,255,0) 46%, rgba(255,255,255,0.5) 78%, #fff 100%);
 }
 @media (max-width:760px){
-  /* full-width text on small screens — even, lighter wash so text stays legible */
-  .page-head--banner::before { opacity:0.62; }
+  /* full-width text on small screens: show the left–middle of the scene,
+     stronger image with a soft top-to-bottom wash for legibility */
+  .page-head--banner::before { opacity:0.85; background-position:30% center; }
   .page-head--banner::after {
     background: linear-gradient(to bottom,
-      rgba(255,255,255,0.42) 0%, rgba(255,255,255,0.62) 45%,
-      rgba(255,255,255,0.9) 84%, #fff 100%);
+      rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.52) 46%,
+      rgba(255,255,255,0.86) 84%, #fff 100%);
   }
+  /* darker body copy holds contrast over the more-visible image */
+  .page-head--banner p { color:var(--ink); }
 }
 .page-head .wrap { position:relative; z-index:2; }
 .page-head h1 { font-size: clamp(46px, 7vw, 82px); }
@@ -91,7 +94,12 @@ a { color: inherit; }
 
 /* ---------- archive layout ---------- */
 .archive { display:grid; grid-template-columns: 190px 1fr; gap: 60px; padding-bottom: 90px; position:relative; z-index:2; }
-@media (max-width: 900px){ .archive { grid-template-columns:1fr; gap:34px; } }
+@media (max-width: 900px){
+  .archive { grid-template-columns:1fr; gap:34px; }
+  /* filter below the entries on small screens so it doesn't block the list */
+  .archive .entries { order:1; }
+  .archive .filters { order:2; }
+}
 
 .filters h2 { font-family:var(--sans); font-size:13px; font-weight:400; letter-spacing:0.14em; text-transform:uppercase; color:var(--ink); margin-bottom:18px; }
 .filter-group { border-top:1px solid var(--hairline); padding: 16px 0; }
